@@ -1,0 +1,10 @@
+﻿# Public DNS resolvers (Expected: Clean)
+8.8.8.8
+1.1.1.1
+8.8.8.8
+
+# Internal LAN address (Expected: Skipped locally, never sent to API)
+192.168.1.50
+
+# Simulated raw firewall log line with embedded malicious IP
+2026-11-20T14:22:01Z BLOCK outbound SRC=192.168.1.50 DST=185.220.101.1 PROTO=TCP
