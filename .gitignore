@@ -1,0 +1,6 @@
+﻿.env
+venv/
+__pycache__/
+*.csv
+fim_baseline.json
+test_configs/
